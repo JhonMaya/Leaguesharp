@@ -30,9 +30,10 @@ namespace Rek
             // Smite that actually does damage
             ItemData.Stalkers_Blade.GetItem(),
             ItemData.Stalkers_Blade_Enchantment_Devourer.GetItem(),
+            //ItemData.Stalkers_Blade_Enchantment_Juggernaut.GetItem(),
             ItemData.Stalkers_Blade_Enchantment_Magus.GetItem(),
             ItemData.Stalkers_Blade_Enchantment_Warrior.GetItem(),
-        
+            ItemData.Bamis_Cinder_Stalkers_Blade_Enchantment_Cinderhulk.GetItem(),
 
         };
         public static readonly List<Item> SKIRMISHER_SABRES = new List<Item>()
@@ -40,8 +41,10 @@ namespace Rek
             // Smite that does damage on the next auto attacks
             ItemData.Skirmishers_Sabre.GetItem(),
             ItemData.Skirmishers_Sabre_Enchantment_Devourer.GetItem(),
+            //ItemData.Skirmishers_Sabre_Enchantment_Juggernaut.GetItem(),
             ItemData.Skirmishers_Sabre_Enchantment_Magus.GetItem(),
-            ItemData.Skirmishers_Sabre_Enchantment_Warrior.GetItem()
+            ItemData.Skirmishers_Sabre_Enchantment_Warrior.GetItem(),
+            ItemData.Bamis_Cinder_Skirmishers_Sabre_Enchantment_Cinderhulk.GetItem()
         };
 
         public static bool HasItem(this Obj_AI_Hero target, Item item)
